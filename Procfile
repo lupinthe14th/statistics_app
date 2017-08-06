@@ -1,1 +1,1 @@
-web: gunicorn statistics_apps.wsgi --log-file -
+web: gunicorn statistics_app.wsgi --log-file -
